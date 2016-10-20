@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock для установки Facebook ™ успешного"
+   },
+   "ads": {
+      "message": "Объявления"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Наслаждайтесь Facebook без рекламы!"
+   },
+   "branding": {
+      "message": "очищается Adblock для Facebook ™"
+   },
+   "disable": {
+      "message": "Отключить"
+   },
+   "disabled": {
+      "message": "Отключено"
+   },
+   "enable": {
+      "message": "Включить"
+   },
+   "enable_non_video_ads": {
+      "message": "Включить Нормальные Объявления"
+   },
+   "enable_video_ads": {
+      "message": "Включить видео Объявления"
+   },
+   "extension_description": {
+      "message": "Удаляет все объявления от Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock для Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Установлен"
+   },
+   "installed_page_title": {
+      "message": "Установленная Adblock для Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Оценить нас на Facebook"
+   },
+   "options": {
+      "message": "AdBlock для Facebook ™ Настройки"
+   },
+   "options_short": {
+      "message": "Настройки"
+   },
+   "pricescout_description": {
+      "message": "Автоматическое сравнение цен и купон помощник для Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Сохранить деньги с Pricescout для Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Оценить нас на Google"
+   },
+   "read_more": {
+      "message": "прочитайте больше"
+   },
+   "recommend": {
+      "message": "Расскажи своим друзьям"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Мне нравится Facebook без рекламы благодаря Adblock для Facebook ™"
+   },
+   "support_us": {
+      "message": "Поддержите наш проект"
+   },
+   "try_something_new": {
+      "message": "Попробуй что-нибудь новое?"
+   }
+}

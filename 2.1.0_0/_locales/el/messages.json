@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock για την εγκατάσταση του Facebook ™ επιτυχή"
+   },
+   "ads": {
+      "message": "Διαφημίσεις"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Απολαύστε το Facebook χωρίς διαφημίσεις!"
+   },
+   "branding": {
+      "message": "καθαρίζονται από το Adblock για το Facebook ™"
+   },
+   "disable": {
+      "message": "Απενεργοποίηση"
+   },
+   "disabled": {
+      "message": "Άτομα με ειδικές ανάγκες"
+   },
+   "enable": {
+      "message": "Ενεργοποίηση"
+   },
+   "enable_non_video_ads": {
+      "message": "Ενεργοποίηση Κανονική Διαφημίσεις"
+   },
+   "enable_video_ads": {
+      "message": "Ενεργοποίηση Διαφημίσεις βίντεο"
+   },
+   "extension_description": {
+      "message": "Αφαιρεί όλες τις διαφημίσεις από το Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock για το Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Εγκατεστημένο"
+   },
+   "installed_page_title": {
+      "message": "Εγκατεστημένο Adblock για το Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Αξιολογήστε μας στο Facebook"
+   },
+   "options": {
+      "message": "AdBlock για το Facebook ™ Ρυθμίσεις"
+   },
+   "options_short": {
+      "message": "Ρυθμίσεις"
+   },
+   "pricescout_description": {
+      "message": "Αυτόματη σύγκριση τιμών & βοηθό κουπόνι για το Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Εκτός από τα χρήματα με Pricescout για το Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Αξιολογήστε μας στο Google"
+   },
+   "read_more": {
+      "message": "διάβασε περισσότερο"
+   },
+   "recommend": {
+      "message": "Πείτε το στους φίλους σας"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Μου αρέσει το Facebook, χωρίς διαφημίσεις, χάρη στην Adblock για το Facebook ™"
+   },
+   "support_us": {
+      "message": "Υποστηρίξτε το έργο μας"
+   },
+   "try_something_new": {
+      "message": "Δοκιμάστε κάτι νέο;"
+   }
+}

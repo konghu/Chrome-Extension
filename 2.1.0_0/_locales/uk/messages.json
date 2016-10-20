@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock для установки Facebook ™ успішного"
+   },
+   "ads": {
+      "message": "Оголошення"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Насолоджуйтесь Facebook без реклами!"
+   },
+   "branding": {
+      "message": "очищається Adblock для Facebook ™"
+   },
+   "disable": {
+      "message": "Відключити"
+   },
+   "disabled": {
+      "message": "Інвалід"
+   },
+   "enable": {
+      "message": "Включити"
+   },
+   "enable_non_video_ads": {
+      "message": "Включити Нормальні Оголошення"
+   },
+   "enable_video_ads": {
+      "message": "Включити відео Оголошення"
+   },
+   "extension_description": {
+      "message": "Видаляє всі оголошення від Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock для Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Встановлена"
+   },
+   "installed_page_title": {
+      "message": "Встановлена ​​Adblock для Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Оцінити нас на Facebook"
+   },
+   "options": {
+      "message": "AdBlock для Facebook ™ Налаштування"
+   },
+   "options_short": {
+      "message": "Налаштування"
+   },
+   "pricescout_description": {
+      "message": "Автоматичне порівняння цін і купон помічник для Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Зберегти гроші з Pricescout для Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Оцінити нас на Google"
+   },
+   "read_more": {
+      "message": "докладніше"
+   },
+   "recommend": {
+      "message": "Розкажіть своїм друзям,"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Мені подобається Facebook без реклами завдяки Adblock для Facebook ™"
+   },
+   "support_us": {
+      "message": "Підтримайте наш проект"
+   },
+   "try_something_new": {
+      "message": "Спробуйте що-небудь нове?"
+   }
+}

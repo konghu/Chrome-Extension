@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock pro instalaci Facebook ™ úspěšné"
+   },
+   "ads": {
+      "message": "Reklamy"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Užijte si Facebook bez reklam!"
+   },
+   "branding": {
+      "message": "čistit Adblock pro Facebook ™"
+   },
+   "disable": {
+      "message": "Zakázat"
+   },
+   "disabled": {
+      "message": "Zakázáno"
+   },
+   "enable": {
+      "message": "Aktivovat"
+   },
+   "enable_non_video_ads": {
+      "message": "Povolení se běžné reklamy"
+   },
+   "enable_video_ads": {
+      "message": "Povolit videoreklam"
+   },
+   "extension_description": {
+      "message": "Odstraní všechny inzeráty od Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock pro Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Instalovaný"
+   },
+   "installed_page_title": {
+      "message": "Instalovaný Adblock pro Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Ohodnoťte nás na Facebooku"
+   },
+   "options": {
+      "message": "AdBlock pro Facebook ™ Nastavení"
+   },
+   "options_short": {
+      "message": "Nastavení"
+   },
+   "pricescout_description": {
+      "message": "Automatické srovnání cen a kupón asistent pro Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Ušetřete peníze s Pricescout pro Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Hodnotit k nám na Google"
+   },
+   "read_more": {
+      "message": "číst dál"
+   },
+   "recommend": {
+      "message": "Řekněte svým přátelům"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Baví mě Facebook bez reklam díky Adblock for Facebook ™"
+   },
+   "support_us": {
+      "message": "Podpořte náš projekt"
+   },
+   "try_something_new": {
+      "message": "Zkuste něco nového?"
+   }
+}

@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "페이스 북 ™ 설치 성공을위한 애드 블록"
+   },
+   "ads": {
+      "message": "광고"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "광고없이 페이스 북을 즐기십시오!"
+   },
+   "branding": {
+      "message": "페이스 북 ™에 대한 애드 블록에 의해 청소"
+   },
+   "disable": {
+      "message": "해제"
+   },
+   "disabled": {
+      "message": "장애인"
+   },
+   "enable": {
+      "message": "사용"
+   },
+   "enable_non_video_ads": {
+      "message": "일반 광고 사용"
+   },
+   "enable_video_ads": {
+      "message": "동영상 광고를 사용"
+   },
+   "extension_description": {
+      "message": "페이스 북 ™의 모든 광고를 제거"
+   },
+   "extension_name": {
+      "message": "페이스 북 ™ 용 애드 블록"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock을"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "설치"
+   },
+   "installed_page_title": {
+      "message": "페이스 북 ™에 대한 애드 블록을 설치"
+   },
+   "like_on_facebook": {
+      "message": "페이스 북에 우리를 평가"
+   },
+   "options": {
+      "message": "페이스 북 ™ 설정을위한 AdBlock을"
+   },
+   "options_short": {
+      "message": "설정"
+   },
+   "pricescout_description": {
+      "message": "구글 크롬 자동 가격 비교 및​​ 쿠폰 조수!"
+   },
+   "pricescout_title": {
+      "message": "구글 크롬에 대한 Pricescout과 비용을 절감"
+   },
+   "rate_this_extension": {
+      "message": "Google에서 우리를 평가"
+   },
+   "read_more": {
+      "message": "자세한 내용을"
+   },
+   "recommend": {
+      "message": "친구에게"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "나는 페이스 북 ™에 대한 애드 블록에 광고 덕분없이 페이스 북을 즐길 수"
+   },
+   "support_us": {
+      "message": "우리의 프로젝트를 지원"
+   },
+   "try_something_new": {
+      "message": "새로운 무언가를 시도?"
+   }
+}

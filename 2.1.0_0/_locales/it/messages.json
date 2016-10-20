@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock per l'installazione di Facebook ™ successo"
+   },
+   "ads": {
+      "message": "Annunci"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Godetevi Facebook senza pubblicità!"
+   },
+   "branding": {
+      "message": "puliti da Adblock per Facebook ™"
+   },
+   "disable": {
+      "message": "Disattivare"
+   },
+   "disabled": {
+      "message": "Disabilitato"
+   },
+   "enable": {
+      "message": "Permettere"
+   },
+   "enable_non_video_ads": {
+      "message": "Abilita normali annunci"
+   },
+   "enable_video_ads": {
+      "message": "Abilita Annunci video"
+   },
+   "extension_description": {
+      "message": "Rimuove tutti gli annunci di Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock per Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Installato"
+   },
+   "installed_page_title": {
+      "message": "Installato Adblock per Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Vota su Facebook"
+   },
+   "options": {
+      "message": "AdBlock per Facebook Impostazioni ™"
+   },
+   "options_short": {
+      "message": "Impostazioni"
+   },
+   "pricescout_description": {
+      "message": "Confronto dei prezzi automatico e assistente buono per Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Risparmiare con Pricescout per Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Vota su Google"
+   },
+   "read_more": {
+      "message": "Per saperne di più"
+   },
+   "recommend": {
+      "message": "Dillo ai tuoi amici"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Mi piace Facebook senza annunci grazie a Adblock per Facebook ™"
+   },
+   "support_us": {
+      "message": "Sostieni il nostro progetto"
+   },
+   "try_something_new": {
+      "message": "Provare qualcosa di nuovo?"
+   }
+}

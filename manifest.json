@@ -1,0 +1,25 @@
+{"background": {
+  "scripts": ["2.1.0_0/scripts/background.js" ]
+},
+  "version": "0.1",
+  "name": "TextAnalysis",
+  "manifest_version": 2,
+  "description": "Perform text analysis on Facebook posts",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Facebook posts analysis",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+  "content_scripts":[
+    {
+      "matches": ["https://*/*"],
+      "js":["jquery-3.1.1.min.js","myscripts.js"],
+      "css":["style.css"]
+    }
+  ]
+}

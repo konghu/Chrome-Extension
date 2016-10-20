@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock pour une installation réussie Facebook ™"
+   },
+   "ads": {
+      "message": "Annonces"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Profitez de Facebook sans publicité!"
+   },
+   "branding": {
+      "message": "nettoyé par Adblock pour Facebook ™"
+   },
+   "disable": {
+      "message": "Désactiver"
+   },
+   "disabled": {
+      "message": "désactivé"
+   },
+   "enable": {
+      "message": "Activer"
+   },
+   "enable_non_video_ads": {
+      "message": "Activer normales annonces"
+   },
+   "enable_video_ads": {
+      "message": "Activer annonces vidéo"
+   },
+   "extension_description": {
+      "message": "Supprime toutes les annonces de Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock pour Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Installé"
+   },
+   "installed_page_title": {
+      "message": "Installé Adblock pour Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Noter nous sur Facebook"
+   },
+   "options": {
+      "message": "AdBlock pour les paramètres Facebook ™"
+   },
+   "options_short": {
+      "message": "Paramètres"
+   },
+   "pricescout_description": {
+      "message": "Comparaison de prix automatique & coupon assistant pour Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Économisez de l'argent avec Pricescout pour Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Noter nous sur Google"
+   },
+   "read_more": {
+      "message": "En savoir plus"
+   },
+   "recommend": {
+      "message": "Dis à tes amis"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Amateur de Facebook sans petite grâce à Adblock pour Facebook ™"
+   },
+   "support_us": {
+      "message": "Soutenez notre projet"
+   },
+   "try_something_new": {
+      "message": "Essayer quelque chose de nouveau?"
+   }
+}

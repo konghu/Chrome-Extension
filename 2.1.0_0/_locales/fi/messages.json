@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock Facebook ™ asennus onnistunut"
+   },
+   "ads": {
+      "message": "Mainokset"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Nauti Facebook ilman mainoksia!"
+   },
+   "branding": {
+      "message": "puhdistetaan Adblock Facebook ™"
+   },
+   "disable": {
+      "message": "Poista käytöstä"
+   },
+   "disabled": {
+      "message": "Vammaiset"
+   },
+   "enable": {
+      "message": "Mahdollistaa"
+   },
+   "enable_non_video_ads": {
+      "message": "Ota Normaali Mainokset"
+   },
+   "enable_video_ads": {
+      "message": "Ota Videomainokset"
+   },
+   "extension_description": {
+      "message": "Poistaa kaikki ilmoitukset Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlockin"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Asennettu"
+   },
+   "installed_page_title": {
+      "message": "Asennettu Adblock Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Äänestä meitä Facebookissa"
+   },
+   "options": {
+      "message": "AdBlock Facebook ™ Asetukset"
+   },
+   "options_short": {
+      "message": "Asetukset"
+   },
+   "pricescout_description": {
+      "message": "Automaattinen hintavertailu & kuponki avustaja Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Säästä rahaa Pricescout Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Äänestä meitä Googlessa"
+   },
+   "read_more": {
+      "message": "Lue lisää"
+   },
+   "recommend": {
+      "message": "Kerro ystävillesi"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Nautin Facebook ilman mainoksia kiitos Adblock Facebook ™"
+   },
+   "support_us": {
+      "message": "Tue hanke"
+   },
+   "try_something_new": {
+      "message": "Kokeilla jotain uutta?"
+   }
+}

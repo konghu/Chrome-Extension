@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock para la instalación de Facebook ™ con éxito"
+   },
+   "ads": {
+      "message": "Anuncios"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Disfrute de Facebook sin anuncios!"
+   },
+   "branding": {
+      "message": "limpiado por Adblock de Facebook ™"
+   },
+   "disable": {
+      "message": "Desactivar"
+   },
+   "disabled": {
+      "message": "Discapacitados"
+   },
+   "enable": {
+      "message": "Habilitar"
+   },
+   "enable_non_video_ads": {
+      "message": "Habilitar normales Anuncios"
+   },
+   "enable_video_ads": {
+      "message": "Habilitar anuncios de vídeo"
+   },
+   "extension_description": {
+      "message": "Elimina todos los anuncios de Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock de Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Instalado"
+   },
+   "installed_page_title": {
+      "message": "Instalado Adblock de Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Nos Vota en Facebook"
+   },
+   "options": {
+      "message": "AdBlock de Facebook ™ Ajustes"
+   },
+   "options_short": {
+      "message": "Ajustes"
+   },
+   "pricescout_description": {
+      "message": "Comparación de precios automática y asistente cupón para Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Ahorre dinero con Pricescout para Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Nos Precio en Google"
+   },
+   "read_more": {
+      "message": "Lee mas"
+   },
+   "recommend": {
+      "message": "Dile a tus amigos"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Me gusta de Facebook sin anuncios gracias a Adblock para Facebook ™"
+   },
+   "support_us": {
+      "message": "Apoya nuestro proyecto"
+   },
+   "try_something_new": {
+      "message": "¿Intenta algo nuevo?"
+   }
+}

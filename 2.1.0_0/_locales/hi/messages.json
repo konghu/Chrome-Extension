@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "फेसबुक ™ स्थापना सफल लिए Adblock"
+   },
+   "ads": {
+      "message": "विज्ञापन की"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "विज्ञापनों के बिना फेसबुक का आनंद लें!"
+   },
+   "branding": {
+      "message": "फेसबुक ™ के लिए Adblock द्वारा साफ"
+   },
+   "disable": {
+      "message": "अक्षम"
+   },
+   "disabled": {
+      "message": "विकलांग"
+   },
+   "enable": {
+      "message": "सक्षम करें"
+   },
+   "enable_non_video_ads": {
+      "message": "सामान्य विज्ञापन सक्षम"
+   },
+   "enable_video_ads": {
+      "message": "वीडियो विज्ञापन सक्षम करें"
+   },
+   "extension_description": {
+      "message": "फेसबुक ™ से सभी विज्ञापनों को निकालता है"
+   },
+   "extension_name": {
+      "message": "फेसबुक ™ के लिए Adblock"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "स्थापित"
+   },
+   "installed_page_title": {
+      "message": "फेसबुक ™ के लिए Adblock स्थापित"
+   },
+   "like_on_facebook": {
+      "message": "फेसबुक पर अमेरिका की दर"
+   },
+   "options": {
+      "message": "फेसबुक ™ सेटिंग्स के लिए AdBlock"
+   },
+   "options_short": {
+      "message": "सेटिंग्स"
+   },
+   "pricescout_description": {
+      "message": "गूगल क्रोम के लिए स्वत: मूल्य की तुलना और कूपन सहायक!"
+   },
+   "pricescout_title": {
+      "message": "गूगल क्रोम के लिए Pricescout के साथ पैसे बचाने के"
+   },
+   "rate_this_extension": {
+      "message": "गूगल पर अमेरिका की दर"
+   },
+   "read_more": {
+      "message": "और पढ़ें"
+   },
+   "recommend": {
+      "message": "अपने दोस्तों को कहिए"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "मैं फेसबुक ™ के लिए Adblock के लिए विज्ञापनों को धन्यवाद के बिना फेसबुक का आनंद"
+   },
+   "support_us": {
+      "message": "हमारी परियोजना का समर्थन"
+   },
+   "try_something_new": {
+      "message": "कुछ नया करने का प्रयास करें?"
+   }
+}

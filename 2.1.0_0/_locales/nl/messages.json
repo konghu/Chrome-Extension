@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock voor Facebook ™ installatie succesvol"
+   },
+   "ads": {
+      "message": "Advertenties"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Geniet van Facebook zonder advertenties!"
+   },
+   "branding": {
+      "message": "gereinigd door Adblock voor Facebook ™"
+   },
+   "disable": {
+      "message": "Onbruikbaar maken"
+   },
+   "disabled": {
+      "message": "Gehandicapte"
+   },
+   "enable": {
+      "message": "In staat stellen"
+   },
+   "enable_non_video_ads": {
+      "message": "Inschakelen Normale Advertenties"
+   },
+   "enable_video_ads": {
+      "message": "Inschakelen videoadvertenties"
+   },
+   "extension_description": {
+      "message": "Verwijdert alle advertenties van Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock voor Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Geïnstalleerd"
+   },
+   "installed_page_title": {
+      "message": "Geïnstalleerd Adblock voor Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Beoordeel ons op Facebook"
+   },
+   "options": {
+      "message": "AdBlock voor Facebook ™ Instellingen"
+   },
+   "options_short": {
+      "message": "Instellingen"
+   },
+   "pricescout_description": {
+      "message": "Automatische prijsvergelijking & coupon assistent voor Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Bespaar geld met Pricescout voor Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Beoordeel ons op Google"
+   },
+   "read_more": {
+      "message": "Lees meer"
+   },
+   "recommend": {
+      "message": "Vertel het aan je vrienden"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Ik geniet Facebook zonder advertenties dankzij Adblock voor Facebook ™"
+   },
+   "support_us": {
+      "message": "Steun ons project"
+   },
+   "try_something_new": {
+      "message": "Probeer iets nieuws?"
+   }
+}

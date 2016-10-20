@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock pentru instalare Facebook ™ de succes"
+   },
+   "ads": {
+      "message": "Anunțuri"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Bucurați-vă de Facebook fără anunțuri!"
+   },
+   "branding": {
+      "message": "curățate de Adblock pentru Facebook ™"
+   },
+   "disable": {
+      "message": "Dezactivați"
+   },
+   "disabled": {
+      "message": "Pentru persoane cu handicap"
+   },
+   "enable": {
+      "message": "Permite"
+   },
+   "enable_non_video_ads": {
+      "message": "Activați Anunțuri normale"
+   },
+   "enable_video_ads": {
+      "message": "Activați Anunțuri video"
+   },
+   "extension_description": {
+      "message": "Elimină toate anunțurile Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock pentru Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Instalat"
+   },
+   "installed_page_title": {
+      "message": "Instalat Adblock pentru Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Apreciaza-ne pe Facebook"
+   },
+   "options": {
+      "message": "AdBlock pentru Facebook ™ Setări"
+   },
+   "options_short": {
+      "message": "Setări"
+   },
+   "pricescout_description": {
+      "message": "Automată comparatorul de prețuri și promoțional asistent pentru Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Economisiți bani cu Pricescout pentru Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Apreciaza-ne pe Google"
+   },
+   "read_more": {
+      "message": "Citeste mai mult"
+   },
+   "recommend": {
+      "message": "Spune prietenilor tăi"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Îmi place Facebook, fără anunturi datorită Adblock pentru Facebook ™"
+   },
+   "support_us": {
+      "message": "Sprijini proiectul nostru"
+   },
+   "try_something_new": {
+      "message": "Încercați ceva nou?"
+   }
+}

@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock за монтаж успешна Facebook ™"
+   },
+   "ads": {
+      "message": "Обяви"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Насладете се на Facebook, без реклами!"
+   },
+   "branding": {
+      "message": "почиства чрез Adblock за Facebook ™"
+   },
+   "disable": {
+      "message": "Правя неспособен"
+   },
+   "disabled": {
+      "message": "хора с увреждания"
+   },
+   "enable": {
+      "message": "Разрешаване"
+   },
+   "enable_non_video_ads": {
+      "message": "Активиране Нормални Обяви"
+   },
+   "enable_video_ads": {
+      "message": "Активиране на видеореклами"
+   },
+   "extension_description": {
+      "message": "Премахва всички реклами на Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock за Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Инсталирана"
+   },
+   "installed_page_title": {
+      "message": "Инсталирана Adblock за Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Оцени ни във Facebook"
+   },
+   "options": {
+      "message": "AdBlock за Facebook ™ Settings"
+   },
+   "options_short": {
+      "message": "Настройки"
+   },
+   "pricescout_description": {
+      "message": "Автоматично сравнява цените и талон помощник за Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Спестете пари с Pricescout за Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Оцени ни в Google"
+   },
+   "read_more": {
+      "message": "чети повече"
+   },
+   "recommend": {
+      "message": "Кажете на приятелите си"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Наслаждавам Facebook, без реклами, благодарение на Adblock за Facebook ™"
+   },
+   "support_us": {
+      "message": "Помогнете ни проект"
+   },
+   "try_something_new": {
+      "message": "Опитайте нещо ново?"
+   }
+}

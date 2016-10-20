@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock for Facebook&trade; installation successful"
+   },
+   "ads": {
+      "message": "Ads"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Enjoy Facebook without ads!"
+   },
+   "branding": {
+      "message": "cleaned by Adblock for Facebook™"
+   },
+   "disable": {
+      "message": "Disable"
+   },
+   "disabled": {
+      "message": "Disabled"
+   },
+   "enable": {
+      "message": "Enable"
+   },
+   "enable_non_video_ads": {
+      "message": "Enable Normal Ads"
+   },
+   "enable_video_ads": {
+      "message": "Enable Video Ads"
+   },
+   "extension_description": {
+      "message": "Removes all ads from Facebook™"
+   },
+   "extension_name": {
+      "message": "Adblock for Facebook™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Installed"
+   },
+   "installed_page_title": {
+      "message": "Installed Adblock for Facebook™"
+   },
+   "like_on_facebook": {
+      "message": "Rate us on Facebook"
+   },
+   "options": {
+      "message": "AdBlock for Facebook™ Settings"
+   },
+   "options_short": {
+      "message": "Settings"
+   },
+   "pricescout_description": {
+      "message": "Automatic price comparison & coupon assistant for Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Save Money with Pricescout for Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Rate us on Google"
+   },
+   "read_more": {
+      "message": "read more"
+   },
+   "recommend": {
+      "message": "Tell your friends"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "I enjoy Facebook without ads thanks to Adblock for Facebook™ "
+   },
+   "support_us": {
+      "message": "Support our project"
+   },
+   "try_something_new": {
+      "message": "Try something new?"
+   }
+}

@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock的為Facebook™安裝成功"
+   },
+   "ads": {
+      "message": "廣告"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Facebook的享受無廣告！"
+   },
+   "branding": {
+      "message": "通過Adblock的為Facebook™清洗"
+   },
+   "disable": {
+      "message": "關閉"
+   },
+   "disabled": {
+      "message": "殘疾人"
+   },
+   "enable": {
+      "message": "啟用"
+   },
+   "enable_non_video_ads": {
+      "message": "啟用普通廣告"
+   },
+   "enable_video_ads": {
+      "message": "啟用視頻廣告"
+   },
+   "extension_description": {
+      "message": "除去來自Facebook™的所有廣告"
+   },
+   "extension_name": {
+      "message": "Adblock的為Facebook™"
+   },
+   "extension_short_name": {
+      "message": "FB-的AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "已安裝"
+   },
+   "installed_page_title": {
+      "message": "Adblock的安裝對於Facebook™"
+   },
+   "like_on_facebook": {
+      "message": "評價我們在Facebook"
+   },
+   "options": {
+      "message": "的AdBlock為Facebook™設置"
+   },
+   "options_short": {
+      "message": "設置"
+   },
+   "pricescout_description": {
+      "message": "自動比價和優惠券助理谷歌瀏覽器！"
+   },
+   "pricescout_title": {
+      "message": "省錢與Pricescout的谷歌瀏覽器"
+   },
+   "rate_this_extension": {
+      "message": "評價我們在谷歌"
+   },
+   "read_more": {
+      "message": "閱讀更多"
+   },
+   "recommend": {
+      "message": "告訴你的朋友"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "我喜歡Facebook的沒有廣告感謝的Adblock為Facebook™"
+   },
+   "support_us": {
+      "message": "支持我們的項目"
+   },
+   "try_something_new": {
+      "message": "嘗試新的東西？"
+   }
+}

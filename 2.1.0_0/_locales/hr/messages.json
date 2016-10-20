@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock za Facebook ™ instalaciju uspješno"
+   },
+   "ads": {
+      "message": "Oglasi"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Uživajte Facebook bez reklama!"
+   },
+   "branding": {
+      "message": "čistiti Adblock za Facebook ™"
+   },
+   "disable": {
+      "message": "Onemogući"
+   },
+   "disabled": {
+      "message": "Onemogućeno"
+   },
+   "enable": {
+      "message": "Omogućite"
+   },
+   "enable_non_video_ads": {
+      "message": "Omogućite normalni oglasi"
+   },
+   "enable_video_ads": {
+      "message": "Omogućite Videooglase"
+   },
+   "extension_description": {
+      "message": "Uklanja sve oglase od Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock za Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Instalirani"
+   },
+   "installed_page_title": {
+      "message": "Instalirani Adblock za Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Ocijenite nas na Facebooku"
+   },
+   "options": {
+      "message": "AdBlock za Facebook ™ Postavke"
+   },
+   "options_short": {
+      "message": "Postavke"
+   },
+   "pricescout_description": {
+      "message": "Automatsko usporedba cijena i kupon asistent za Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Spremi novac s Pricescout za Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Ocijenite nas na Google"
+   },
+   "read_more": {
+      "message": "čitaj više"
+   },
+   "recommend": {
+      "message": "Recite svojim prijateljima"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Uživam Facebook bez oglasi zahvaljujući Adblock za Facebook ™"
+   },
+   "support_us": {
+      "message": "Podržite naš projekt"
+   },
+   "try_something_new": {
+      "message": "Pokušajte nešto novo?"
+   }
+}

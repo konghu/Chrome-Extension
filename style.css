@@ -1,0 +1,20 @@
+.icon {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: -100px;
+    background: blue;
+    z-index: 99999999999999;
+}
+
+.box {
+     width: 300px;
+     height: 150px;
+     position: absolute;
+     top: 30px;
+     right: -300px;
+     background: red;
+     z-index: 99999999999999
+ }
+

@@ -1,0 +1,79 @@
+{
+   "abyt_has_been_installed": {
+      "message": "Adblock untuk instalasi Facebook ™ sukses"
+   },
+   "ads": {
+      "message": "Iklan"
+   },
+   "ads_will_be_blocked_on_yt": {
+      "message": "Nikmati Facebook tanpa iklan!"
+   },
+   "branding": {
+      "message": "dibersihkan oleh Adblock untuk Facebook ™"
+   },
+   "disable": {
+      "message": "Melumpuhkan"
+   },
+   "disabled": {
+      "message": "Cacat"
+   },
+   "enable": {
+      "message": "Memungkinkan"
+   },
+   "enable_non_video_ads": {
+      "message": "Aktifkan Iklan normal"
+   },
+   "enable_video_ads": {
+      "message": "Aktifkan Iklan Video"
+   },
+   "extension_description": {
+      "message": "Menghapus semua iklan dari Facebook ™"
+   },
+   "extension_name": {
+      "message": "Adblock untuk Facebook ™"
+   },
+   "extension_short_name": {
+      "message": "FB-AdBlock"
+   },
+   "installed": {
+      "description": "badge for install page",
+      "message": "Dipasang"
+   },
+   "installed_page_title": {
+      "message": "Dipasang Adblock untuk Facebook ™"
+   },
+   "like_on_facebook": {
+      "message": "Beri kami di Facebook"
+   },
+   "options": {
+      "message": "AdBlock untuk Facebook ™ Pengaturan"
+   },
+   "options_short": {
+      "message": "Pengaturan"
+   },
+   "pricescout_description": {
+      "message": "Harga otomatis perbandingan & asisten kupon untuk Google Chrome!"
+   },
+   "pricescout_title": {
+      "message": "Simpan Uang dengan Pricescout untuk Google Chrome"
+   },
+   "rate_this_extension": {
+      "message": "Beri kami di Google"
+   },
+   "read_more": {
+      "message": "Baca lebih banyak"
+   },
+   "recommend": {
+      "message": "Beritahu teman Anda"
+   },
+   "share_text": {
+      "description": "This text will be shown on share links (e.g. Twitter)",
+      "message": "Saya menikmati Facebook tanpa iklan berkat Adblock untuk Facebook ™"
+   },
+   "support_us": {
+      "message": "Mendukung proyek kami"
+   },
+   "try_something_new": {
+      "message": "Mencoba sesuatu yang baru?"
+   }
+}

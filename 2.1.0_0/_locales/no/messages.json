@@ -1,0 +1,79 @@
+{
+  "extension_name": {
+    "message": "Adblock for Facebook ™"
+  },
+  "extension_short_name": {
+    "message": "FB-AdBlock"
+  },
+  "extension_description": {
+    "message": "Fjerner alle annonser fra Facebook ™"
+  },
+  "disabled": {
+    "message": "Funksjonshemmede"
+  },
+  "disable": {
+    "message": "Deaktiver"
+  },
+  "enable": {
+    "message": "Aktiver"
+  },
+  "rate_this_extension": {
+    "message": "Rangere oss på Google"
+  },
+  "like_on_facebook": {
+    "message": "Rangere oss på Facebook"
+  },
+  "ads": {
+    "message": "Annonser"
+  },
+  "branding": {
+    "message": "rengjøres ved Adblock for Facebook ™"
+  },
+  "options": {
+    "message": "AdBlock for Facebook ™ Innstillinger"
+  },
+  "options_short": {
+    "message": "Innstillinger"
+  },
+  "enable_video_ads": {
+    "message": "Aktiver videoannonser"
+  },
+  "enable_non_video_ads": {
+    "message": "Aktiver Normale Annonser"
+  },
+  "installed_page_title": {
+    "message": "Installert Adblock for Facebook ™"
+  },
+  "installed": {
+    "message": "Installert",
+    "description": "badge for install page"
+  },
+  "abyt_has_been_installed": {
+    "message": "Adblock for Facebook ™ installasjon vellykket"
+  },
+  "ads_will_be_blocked_on_yt": {
+    "message": "Nyt Facebook uten annonser!"
+  },
+  "support_us": {
+    "message": "Støtte vårt prosjekt"
+  },
+  "recommend": {
+    "message": "Fortell vennene dine"
+  },
+  "try_something_new": {
+    "message": "Prøve noe nytt?"
+  },
+  "pricescout_title": {
+    "message": "Spar penger med Pricescout for Google Chrome"
+  },
+  "pricescout_description": {
+    "message": "Automatisk prissammenligning & kupong assistent for Google Chrome!"
+  },
+  "read_more": {
+    "message": "Les mer"
+  },
+  "share_text": {
+    "message": "Jeg liker Facebook uten annonser takk til Adblock for Facebook ™",
+    "description": "This text will be shown on share links (e.g. Twitter)"
+  }
+}
