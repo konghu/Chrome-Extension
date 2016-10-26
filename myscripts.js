@@ -1,49 +1,58 @@
-// x=document.getElementsByClassName("userContent");
-// for(var i = 0; i < x.length; i++){
-//     x[i].innerText = "H";
-// }
-//
-// document.getElementsByClassName("userContent").innerHTML = "New text!";
-//
-// document.getElementsByClassName('_1s4v _26aw _5rmj _5fo2 _27oh').style.color="red";
-
-
-// x=document.getElementsByClassName("userContent");  // Find the elements
-// for(var i = 0; i < x.length; i++){
-//     // console.log(x[i].innerText);
-//     // Change the content
-//     x[i].innerText=x[i].innerText + "LOL";
-// }
-//
-//
-// x=document.getElementsByClassName("fwb");  // Find the elements
-// for(var i = 0; i < x.length; i++){
-//     x[i].innerText="Kong is so handsome";    // Change the content
-// }
-
-
-// $(document).ready(function(){
-//     console.log('hello');
-//
-//     $("<div class='box'>Hello world!</div>").insertAfter(".userContent");
-// });
+var content=document.getElementsByClassName("userContent");  // Find the elements
+// var x = $(".userContent").find("p").first().html();
+// console.log(x[1]);
+var x = document.getElementsByTagName("p");
 
 $(document).ready(function(){
-    $("<button class='icon'>check</button>").insertAfter(".userContent");
+    for(var i = 0; i < x.length; i++){
 
+        $("<button class='icon' id='iconid"+i+"'>check</button>").insertAfter(x[i]);
+
+    }
 });
 
+
 $(document).ready(function(){
-    $("button").click(function(){
-        $("<div class='box'>Text Analysis Goes here!</div>").insertAfter(".userContent");
+
+    $(".icon").click(function(){
+
+        // create boxes and append text to boxes
+        order = parseInt(this.id.charAt(6));
+        $("<div class='box' id='boxid"+order+"'>"+x[order].innerText+"</div>").insertAfter('#'+this.id+'');
+        // $("<div class='translaton' id='translationid"+order+"'>"+x[order].innerText+"</div>").insertAfter('#'+this.id+'');
     });
 });
 
-// $(document).ready(function(){
-//     $(".icon").click(function(){
-//         $("box").hide();
-//     });
-//     $(".icon").click(function(){
-//         $("box").show();
-//     });
-// });
+
+
+    var url = "https://www.googleapis.com/language/translate/v2?key=AIzaSyD4rLhLb3ZmwjLJDt-njNqFYP30eHeaBTQ&target=en&q=";
+
+
+    $(document).ready(function(){
+
+
+        $(document).on("click", ".icon", function(){
+            // var position = $(".userContent").offset();
+            // var width = $(".userContent").width();
+            // console.log(position)
+            //
+            // $("#translation-box").css("left", (position.left + width) + "px");
+            // $("#translation-box").css("top", position.top + "px");
+            // $("#translation-box").css("height", $(".userContent").height() + "px");
+            // $("#translation-box").css("z-index:10000000");
+
+            // console.log(this.id);
+            order = parseInt(this.id.charAt(6));
+            // console.log($(".userContent").html());
+            // var content = $(".userContent").find("p").first().html();
+            var content = x[order].innerText;
+            $("#boxid"+order+"").append("<div id='translation-box"+order+"' style='background-color: lightblue; position:absolute; width:200px; height:100px'></div>");
+
+            console.log(content);
+            $.get(url + content, function(data){
+                console.log(data);
+                $("#translation-box"+order+"").html(data.data.translations[0].translatedText);
+            });
+
+        });
+    });

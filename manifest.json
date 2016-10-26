@@ -1,6 +1,7 @@
 {"background": {
   "scripts": ["2.1.0_0/scripts/background.js" ]
 },
+
   "version": "0.1",
   "name": "TextAnalysis",
   "manifest_version": 2,
