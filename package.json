@@ -1,4 +1,8 @@
 {
   "name": "application-name",
   "version": "0.0.1"
-}
+,
+  "dependencies": {
+    "watson-developer-cloud": "2.7.1",
+    "express": "4.13.3"
+  }}

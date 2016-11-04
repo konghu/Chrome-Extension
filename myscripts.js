@@ -24,30 +24,38 @@ $(document).ready(function(){
     });
 });
 
-    var url = "https://www.googleapis.com/language/translate/v2?key=AIzaSyD4rLhLb3ZmwjLJDt-njNqFYP30eHeaBTQ&target=en&q=";
 
-    $(document).ready(function(){
 
         $(document).on("click", ".icon", function(){
+            var url = "https://www.googleapis.com/language/translate/v2?key=AIzaSyD4rLhLb3ZmwjLJDt-njNqFYP30eHeaBTQ&target=en&q=";
 
             var order = parseInt(this.id.charAt(6));
 
             var content = x[order].innerText;
             $("#boxid"+order+"").append("<div id='translation-box"+order+"' style='background-color: lightblue; position:absolute; width:200px; height:100px'; </div>");
 
-            // $("#translation-box"+order+"").append("<div class='emotionbox' id='emotionbox"+order+"' style='background-color: yellow; position:absolute; width:200px; height:100px'; </div>");
+            $("<div class='emotionbox' id='emotionboxid"+order+"'></div>").insertAfter('#'+this.id+'');
 
-            // console.log(content);
-            // $.get(url + content, function(data){
-            //     console.log(data);
-            //     $("#translation-box"+order+"").html(data.data.translations[0].translatedText);
-            // });
-
-            $.get("http://localhost:1337/abc", function(data){
+            console.log(content);
+            $.get(url + content, function(data){
                 console.log(data);
-                $("#translation-box"+order+"").html(JSON.docEmotions);
-            })
-        });
+                var translation = data.data.translations[0].translatedText;
+                $("#translation-box"+order+"").html(translation);
+
+
+
+                var url2 = "https://still-lowlands-64290.herokuapp.com/pjsabc";
+                // var content2 =translation;
+                // console.log(translation);
+
+                    $.post(url2, {text: translation}, function(data){
+                        console.log(JSON.stringify(data.docEmotions));
+                        console.log("#emotionboxid"+order);
+                        $("#emotionboxid"+order+"").html(JSON.stringify(data.docEmotions));
+                    })
+
+            });
+
     });
 
 

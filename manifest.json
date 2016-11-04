@@ -14,13 +14,17 @@
   "permissions": [
     "tabs",
     "storage",
-    "<all_urls>"
+    "<all_urls>",
+        "contextMenus", 
+        "http://*/*",
+        "https://*/*"
   ],
   "content_scripts":[
     {
       "matches": ["https://*/*"],
       "js":["jquery-3.1.1.min.js","myscripts.js"],
-      "css":["style.css"]
+      "css": [ "style.css" ],
+      "run_at": "document_end"
     }
   ]
 }
