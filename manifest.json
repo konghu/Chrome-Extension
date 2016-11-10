@@ -12,17 +12,15 @@
     "default_popup": "popup.html"
   },
   "permissions": [
+    "<all_urls>",
     "tabs",
     "storage",
-    "<all_urls>",
-        "contextMenus", 
-        "http://*/*",
-        "https://*/*"
+    "contextMenus"
   ],
   "content_scripts":[
     {
-      "matches": ["https://*/*"],
-      "js":["jquery-3.1.1.min.js","myscripts.js"],
+      "matches": ["https://*.facebook.com/*"],
+      "js":["jquery-3.1.1.min.js","myscripts.js", "d3.min.js"],
       "css": [ "style.css" ],
       "run_at": "document_end"
     }
