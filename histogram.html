@@ -66,8 +66,12 @@
 <div id="chart"></div>
 
 <script>
+
+
+
+    //    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     var emotionData = [100, 125, 320, 440, 500];
-    var height = 500;
+    var height = 700;
     var width = 500;
     var barWidth = 35;
     var barOffset = 5;
@@ -75,7 +79,7 @@
     var myChart = d3.select('#chart').append('svg')
             .attr('width', width)
             .attr('height', height)
-            .style('background', '#f4f4f4')
+            .style('background', "#ffffff")
             .selectAll('rect')
             .data(emotionData)
             .enter().append('rect')

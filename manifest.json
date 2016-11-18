@@ -17,6 +17,11 @@
     "storage",
     "contextMenus"
   ],
+
+  "web_accessible_resources": [
+    "images/*.png"
+  ],
+
   "content_scripts":[
     {
       "matches": ["https://*.facebook.com/*"],
