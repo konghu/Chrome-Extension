@@ -9,6 +9,7 @@ var div = document.createElement( 'div' );
 var btnForm = document.createElement( 'form' );
 var btn = document.createElement( 'input' );
 var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg", style= 'width:400px; height:300px');
+var canvas = document.createElement('canvas');
 
 
 //append all elements
@@ -60,13 +61,13 @@ $(document).ready(function() {
             var url2 = "https://still-lowlands-64290.herokuapp.com/pjsabc";
 
             $.post(url2, {text: translation}, function (data) {
-                var emotionData = [data.docEmotions.anger *400, data.docEmotions.sadness *400, data.docEmotions.joy *400, data.docEmotions.fear *400,data.docEmotions.disgust*400];
+                var emotionData = [data.docEmotions.anger *200, data.docEmotions.sadness *200, data.docEmotions.joy *200, data.docEmotions.fear *200,data.docEmotions.disgust*200];
                 var barWidth = 35;
                 var barOffset = 5;
 
                 $("#translation-box").append("<p id='label2'>Emotion</p>");
 
-                var choices = ['#E40B15', '#0B76E4', '#ECEB3B', '#D61DD3', '#1DD649'];
+                var choices = ['#E40B15', '#f4b042', '#ECEB3B', '#0B76E4', '#1DD649'];
                 function colors(i){
                     return choices[i];
                 }
@@ -75,8 +76,8 @@ $(document).ready(function() {
                 var myChart = d3.select('#translation-box').append('svg')
                     .attr('id', "graph")
                     .attr('width', 200)
-                    .attr('height', 300)
-                    .style('background', '#a2a9b5')
+                    .attr('height', 150)
+                    .style('background', '#f5f5f5')
                     .selectAll('rect')
                     .data(emotionData)
                     .enter().append('rect')
@@ -91,7 +92,7 @@ $(document).ready(function() {
                             );
                     })
                     .attr('y', function(d){
-                        return 300 - d;
+                        return 150 - d;
                     });
 
 
@@ -100,7 +101,7 @@ $(document).ready(function() {
                 var img = document.createElement("img");
                 img.setAttribute("id", "anger");
                 img.setAttribute("class", "labels");
-                img.src = chrome.extension.getURL("images/Anger2.png");
+                img.src = chrome.extension.getURL("images/Anger.png");
                 var src = document.getElementById("translation-box");
                 src.appendChild(img);
 
@@ -108,7 +109,7 @@ $(document).ready(function() {
                 var img = document.createElement("img");
                 img.setAttribute("id", "sadness");
                 img.setAttribute("class", "labels");
-                img.src = chrome.extension.getURL("images/Sadness2.png");
+                img.src = chrome.extension.getURL("images/Sadness.png");
                 var src = document.getElementById("translation-box");
                 src.appendChild(img);
 
@@ -116,21 +117,21 @@ $(document).ready(function() {
                 var img = document.createElement("img");
                 img.setAttribute("id", "joy");
                 img.setAttribute("class", "labels");
-                img.src = chrome.extension.getURL("images/Joy2.png");
+                img.src = chrome.extension.getURL("images/Joy.png");
                 var src = document.getElementById("translation-box");
                 src.appendChild(img);
 
                 var img = document.createElement("img");
                 img.setAttribute("id", "fear");
                 img.setAttribute("class", "labels");
-                img.src = chrome.extension.getURL("images/Fear2.png");
+                img.src = chrome.extension.getURL("images/Fear.png");
                 var src = document.getElementById("translation-box");
                 src.appendChild(img);
 
                 var img = document.createElement("img");
                 img.setAttribute("id", "disgust");
                 img.setAttribute("class", "labels");
-                img.src = chrome.extension.getURL("images/Disgust2.png");
+                img.src = chrome.extension.getURL("images/Disgust.png");
                 var src = document.getElementById("translation-box");
                 src.appendChild(img);
 
@@ -145,51 +146,52 @@ $(document).ready(function() {
                 $("#emotion-box").html(JSON.stringify(data.docSentiment));
                 console.log(JSON.stringify(data.docSentiment));
 
+                $("#translation-box").append("<p id='label3'>Feeling</p>");
+
                 var sentimentData = data.docSentiment;
                 var chartData = [sentimentData.score];
-                console.log(chartData);
-//                alert(typeof chartData);
+                var typeData = [sentimentData.type];
 
-                //             Set the frame
-                var margin = {top: 30, right: 10, bottom: 10, left: 10},
-                    width = 200 - margin.left - margin.right,
-                    height = 100 - margin.top - margin.bottom;
+                var score = function() {
+                    if (typeData != "neutral" && chartData != null) {
+                        return chartData;
+                    } else {
+                        return ["0"];
+                    }
+                };
+//                alert(score(sentimentData));
 
-//             function for x axis
-                var xBar = d3.scaleLinear()
-                    .domain([-1, 1])
-                    .range([0, width])
-                    .nice();
+                $("#translation-box").append("<canvas id='foo' width='200'></canvas>");
 
-//              function for y axis
-                var yBar = d3.scaleBand()
-                    .domain([0, 1])
-                    .range([0, 36], 0);
+                $("<p id='scale'>Negative Positive</p>").insertAfter("#foo");
 
-//              frame for the bar chart
-                var svgBar = d3.select("#translation-box").append("svg")
-                    .attr("id", "barchart")
-                    .attr("width", width + margin.left + margin.right)
-                    .attr("height", height + margin.top + margin.bottom)
-                    .append("g")
-                    .attr("transform", "translate (" + margin.left + "," + margin.top + ")");
+                var opts = {
+                    lines: 12,
+                    angle: 0.15,
+                    lineWidth: 0.44,
+                    pointer: {
+                        length: 0.7,
+                        strokeWidth: 0.03,
+                        color: '#000000'
+                    },
+                    limitMax: 'false',
+                    percentColors: [[0.0, "#A52A2A" ], [1.0, "#4682b4"]], // !!!!
+                    strokeColor: '#E0E0E0',
+                    colorStart: '#A52A2A',
+                    colorStop: '#4682b4',
+                    generateGradient: true
+                };
 
-//              building the bar chart
-                svgBar.selectAll(".bar")
-                    .data(chartData)
-                    .enter().append("rect")
-                    .attr("class", function(dBar) {return dBar < 0 ? "bar negative" : "bar positive";})
-                    .attr("x", function(dBar) {return xBar(Math.min(0, dBar));})
-                    .attr("y", function(dBar, iBar) {return yBar(iBar);})
-                    .attr("width", function(dBar) {return Math.abs(xBar(dBar) - xBar(0));})
-                    .attr("height", yBar.bandwidth());
+                var target = document.getElementById('foo');
 
-//              building the x axis
-                svgBar.append("g")
-                    .attr("class", "x axis")
-                    .call(d3.axisTop(xBar));
+                var gauge = new Gauge(target).setOptions(opts);
 
-                $("#barchart").append("#graph");
+                gauge.minValue = -1;
+                gauge.maxValue = 1;
+                gauge.animationSpeed = 32;
+                gauge.set(score(sentimentData));
+
+                $("#foo").append("#graph");
 
             });
 
