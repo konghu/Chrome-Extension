@@ -18,12 +18,6 @@ div.appendChild( btnForm );
 btnForm.appendChild( btn );
 btnForm.action = '';
 
-//set attributes for btn
-btn.type = 'button';
-btn.value = 'hello';
-btn.style.position = 'absolute';
-btn.style.top = '50%';
-btn.style.left = '50%';
 
 
 $(document).ready(function() {
@@ -40,7 +34,7 @@ $(document).ready(function() {
         $("#hover-box").css("width", width + "px");
         $("#hover-box").css("height", $(this).height() + "px");
 
-        $("#translation-box").css("left", (position.left + width) + "px");
+        $("#translation-box").css("left", (position.left + width)  + "px");
         $("#translation-box").css("top", position.top + "px");
         $("#translation-box").css("z-index:10000000");
 
